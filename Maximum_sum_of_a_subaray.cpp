@@ -23,7 +23,6 @@ int maxSubArray(vector<int>& nums) {
 			max_sum = max(max_sum, curr_sum);
 			curr_sum += nums[r++];
 		}
-
 	}
 
 	while(l < r)
